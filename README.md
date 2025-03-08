@@ -40,8 +40,8 @@ Ensure Docker is running before proceeding.
 
 ### **Step 1: Clone the Repository**
 ```powershell
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/Yashh1506/Weather-Data-DAG
+cd Weather Data DAG
 ```
 
 ### **Step 2: Initialize Airflow**
