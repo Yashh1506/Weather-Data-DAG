@@ -1,0 +1,5 @@
+logs
+logfile
+query
+dags/__pycache__
+dags/weather_dag.py 
