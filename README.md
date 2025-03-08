@@ -86,10 +86,10 @@ Click **"+ (Create)"** and fill in:
 | Connection ID | `postgres_default` |
 | Connection Type | `Postgres` |
 | Host | `host.docker.internal` *(if Airflow is in Docker)*, `postgres` *(if running natively)* |
-| Schema | `airflow` |
-| Login | `airflow` |
-| Password | `airflow` |
-| Port | `5432` |
+| Schema | `you database name` |
+| Login | `your user name` |
+| Password | `your password` |
+| Port | `5432/5433 (in some cases)` |
 
 Click **Save**.
 
@@ -117,10 +117,6 @@ Click the **Trigger DAG ▶** button next to your DAG.
 To stop all running services:
 ```powershell
 docker-compose down
-```
-To remove all containers and volumes (CAUTION: Deletes all Airflow metadata):
-```powershell
-docker-compose down --volumes --remove-orphans
 ```
 
 ---
