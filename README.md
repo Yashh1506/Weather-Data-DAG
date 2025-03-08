@@ -137,5 +137,5 @@ docker-compose down --volumes --remove-orphans
 
 ---
 
-Now, you're ready to run Apache Airflow with Docker! 🚀
+Now, you're ready to run Apache Airflow with Docker!
 
